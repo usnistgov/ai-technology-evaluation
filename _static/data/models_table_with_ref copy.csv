@@ -1,0 +1,5 @@
+Model,Owner,Date of Release,Open Source(y/n)
+:ref:`Llama 3.0 Instruct (8B) <llama-3_0-instruct-8B>`,Meta,"April 18, 2024", :fas:`check;sd-text-success fa-xl` Y
+:ref:`Llama 3.1 Instruct (8B) <llama-3_1-instruct-8B>`,Meta,"July 23, 2024", :fas:`check;sd-text-success fa-xl` Y
+:ref:`Qwen2.5-Omni (7B)<qwen-2_5-omni-7B>`,Alibaba Group,"March 26, 2025", :fas:`check;sd-text-success fa-xl` Y
+:ref:`Qwen2.5-Omni (3B)<qwen-2_5-omni-3B>`,Alibaba Group,"April 30, 2025", :fas:`check;sd-text-success fa-xl` Y

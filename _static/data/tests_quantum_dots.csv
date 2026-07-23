@@ -1,0 +1,2 @@
+Dataset,Test Plan,Year,Modalities: Input / Output,# Trials, Metric
+QDC Patches v1.0,:download:`pdf </_static/data/aite_test_qdt_2026-05-29.pdf>`,2026,text and image / text,"641",Mean Squared Error

@@ -1,0 +1,2 @@
+Dataset,Test Plan,Year,Modalities: Input / Output,# Trials,Metric
+Gumby V1.0, :download:`pdf </_static/data/aite_test_visual_event_detection_2026-05-29.pdf>`,2026,text and image / text,"3,000",Detection Cost Function

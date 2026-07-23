@@ -1,0 +1,63 @@
+ul, #myUL {
+list-style-type: none;
+}
+
+#myUL {
+margin: 0;
+padding: 0;
+}
+
+.box {
+cursor: pointer;
+-webkit-user-select: none; /* Safari 3.1+ */
+-moz-user-select: none; /* Firefox 2+ */
+-ms-user-select: none; /* IE 10+ */
+user-select: none;
+}
+
+.box::before {
+content: "\25B6";
+color: black;
+display: inline-block;
+margin-right: 6px;
+}
+
+.check-box::before {
+content: "\25BC";
+color: dodgerblue;
+}
+
+.nested {
+display: none;
+}
+
+.active {
+display: block;
+}
+
+/* Wider main content to avoid forcing components with many tabs to wrap */
+/* https: //pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/layout.html#horizontal-spacing */
+.bd-page-width {
+    max-width: 100rem;
+    /* default is 88rem */
+}
+
+/* Limiting the adminition box width when in footers (can be very wide otherwise) */
+.footer-item:has(.admonition) {
+    max-width: max-content;
+}
+
+/* Increase font size across the board */
+html {
+    /* !important is required here */
+    --pst-font-size-base: 18px !important;
+}
+/* More spacing before the "Previous/Next page" footer links */
+.prev-next-footer {
+    padding-top: 2rem;
+}
+/* Setting a positive z-index for the NIST js leave notice container
+Without this, the notice may be hidden behind other elements */
+#ln-messageHolder {
+    z-index: 100;
+}
